@@ -1,0 +1,52 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+build/
+dist/
+*.spec
+
+# ---- Secrets: never commit ----
+.env
+*.env
+!.env.example
+credentials/
+*service_account*.json
+*credentials*.json
+*session*.json
+*.pem
+*.key
+
+# ---- Runtime data / outputs (real business data) ----
+*.xlsx
+*.xls
+*.csv
+*.pdf
+*.png
+*.jpg
+*.log
+logs/
+out/
+output.txt
+downloads/
+
+# ---- Local tooling / OS ----
+.claude/
+.idea/
+.vscode/
+*.bak
+*.orig
+*.zip
+*.exe
+Thumbs.db
+.DS_Store
+
+# ---- Project-specific ----
+reports/
+chrome_profile/
+ms-playwright/

@@ -1,0 +1,9 @@
+pywinauto==0.6.9
+pillow==12.3.0
+gspread==6.2.1
+google-auth==2.56.0
+pywin32==312
+comtypes==1.4.16
+playwright==1.61.0
+requests==2.34.2
+openpyxl==3.1.5
